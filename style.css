@@ -3,13 +3,12 @@
 
 
 body {
-    /* background-color: rgb(168, 0, 168); */
 
 }
 .section {
     display: flex;
     justify-content: space-between;
-    /* background: rgb(32, 32, 27); */
+    /* background: rgb(3, 10, 82); */
     
 }
 
@@ -73,7 +72,7 @@ body {
     text-align: center; */
 
     height: 80vh;
-    background:url(/pictures/pexels-photo-h1-bg.jpeg);
+    background:url(/pictures/bggif.gif);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(255, 255, 255);
