@@ -24,3 +24,20 @@ tabBtns.addEventListener('click', element => {
 });
 
 
+
+const btnDJ = document.getElementById('btn_DJ');
+const content_DJ = document.getElementById('content_DJ');
+const header = document.getElementById('header');
+
+btnDJ.addEventListener( 'click', () => {
+
+    if(getComputedStyle(content_DJ).display == 'none'){
+        header.style.display = 'none';
+        content_DJ.style.display = 'block';
+    } else {
+        header.style.display = 'flex';
+        content_DJ.style.display = 'none';
+    }
+
+})
+
